@@ -34,4 +34,10 @@ header {
     margin: auto;
     display: block
 }
+.table {
+    width:  35%;
+    right: 35%;
+    margin: auto;
+    padding: auto;
+}
 
