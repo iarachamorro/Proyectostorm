@@ -2,6 +2,7 @@ body {
     min-height: 100vh;
     max-width: 400px;
     margin: auto;
+    font-size: 10%
 }
 
 * {
@@ -36,29 +37,34 @@ body {
     width: 550px;
 }
   
-  nav ul {
-    background-color: #282727;
-    list-style-type: none;
-    text-align: center;
-  }
-   nav li{
-     display: inline-flex;
-   }
   
-  nav a{
+nav ul {
+  background-color: #282727;
+  list-style-type: none;
+  text-align: center;
+}
+ nav li{
+   display: inline-flex;
+ }
+
+nav a{
     font-family:'Castoro Titling', cursive;
-    text-decoration: none;
-    color: #ffffff;
-    padding: 80px;
-    width: 250px;
-  }
-  
-  body{
-    background-color: #f3ccd5;
+  text-decoration: none;
+  color: #ffffff;
+  padding: 10px;
+  width: 200px;
+    font-size: 30px;
+}
+
+
+body{
+    background-color: #ffff;
   }
 
-  .logo{
+.logo{
     width: 60%;
     height: auto;
-    margin-left: -510px;
-  }
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
