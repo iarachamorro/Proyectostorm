@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <link rel="stylesheet" type="text/css" href="stylescon.css">
+   <link rel="stylesheet" type="text/css" href="css/fuentes.css">
+   <link rel="preconnect" href="https://fonts.googleapis.com">
+   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+   <link href="https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap" rel="stylesheet">
+</head>
+<body class="fondo">
+   <header> 
+        <div class="fondo"> 
+            <img src="./nlogo (2).png" class="logocon">
+        </div>
+    <nav>
+        <ul class="menu">
+        <li><a href="index.html">Inicio</a></li> 
+        <li><a href="./buscar02">Buscar</a></li>
+        <li><a href="./nav/carrodecompras/carrito.html">Carro de compras</a></li>
+        <li><a href="./nav/contacto.html">Contacto</a></li>
+       </ul>    
+    </nav> 
+    </header>
+  <form>
+    <fieldset>
+        <legend>Contáctanos</legend>
+
+
+        <span>Nombre</span>
+        <input type="text"/>
+        <br/>
+        <br/>
+
+        <span>Correo Electrónico</span>
+        <input type="text"/>
+        <br/>
+        <br/>
+      
+        <span>Número de Teléfono</span>
+        <input type="number"/>
+        <br />
+        <br />
+
+        <span>Fecha</span>
+        <input type="date"/>
+        <br />
+        <br />
+
+
+        <span>Motivo de contacto</span> 
+        <input type="text" required placeholder="Problema/Consulta" pattern=[A-Za-z0-9\s]{8,60}> 
+        <br/>
+        <br/>
+
+        <span>Escribe tu mensaje</span>
+        <br/> 
+          <textarea id="message" name="visitor_message" placeholder="Escribe tu mensaje aquí." required>
+          </textarea> 
+          <br/>
+          <br/>
+
+          <input type="submit" value="Enviar">
+          <br/>
+
+
+       </fieldset> 
+        
+    </form>  

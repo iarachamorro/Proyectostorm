@@ -10,7 +10,11 @@
     color: #282727; 
     text-decoration: none; 
     padding: 15px; 
+<<<<<<< HEAD
     font-family:'Frank Ruhl Libre';
+=======
+ 
+>>>>>>> 83e9b3b5435717e98f7aa585e7c518cb4c0cb672
     font-size: 22px;
     font-weight: bold; 
     position: relative;
@@ -19,7 +23,11 @@
 
 .logo{
     border: 5px;
+<<<<<<< HEAD
     width: 190px;
+=======
+    width: 270px;
+>>>>>>> 83e9b3b5435717e98f7aa585e7c518cb4c0cb672
     height: 170px;
 }
 
@@ -29,6 +37,7 @@ header {
     align-items: center;
 }
 #logo{
+<<<<<<< HEAD
     width: 23%;
     height: 5%;
     margin: auto;
@@ -45,3 +54,10 @@ header {
     height: 30%;
 }
 
+=======
+    width: 150px;
+    height: 150px;
+    margin: auto;
+    display: block
+}
+>>>>>>> 83e9b3b5435717e98f7aa585e7c518cb4c0cb672
