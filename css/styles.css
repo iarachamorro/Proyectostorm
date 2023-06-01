@@ -3,26 +3,26 @@ body {
     height: 100%;
 }
 
-* {
-    padding: 0;
-    margin: 0;
+*{
+  padding: 0px;
+  margin: 0px;
 }
 .menu { 
     display: flex; 
     list-style: none;
  } 
 
-.menu a{ 
+.menues{ 
     color: #282727; 
     text-decoration: none; 
     font-family: 'Helvetica Neue';
-    padding: 15px;
-    font-size: 20px;
-    margin-left: 70px; 
-    position: relative;
-    right: 100px;
-    left: 715px;
-    top: -77px;
+    font-size: 18px;
+    margin: auto;
+}
+
+.logo{
+  width: 10%;
+  height: auto;
 }
 
 .cajaContenedora{
@@ -39,7 +39,7 @@ body {
   
   
 nav ul {
-    color: transparent;
+  color: transparent;
   list-style-type: none;
   text-align: center;
 }
@@ -61,15 +61,33 @@ body{
     background-color: #ffff;
   }
 
-.logo{
-    width: 20%;
-    height: auto;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
 .carro{
-  height: 35px;
-  width: 35px;
+  height: 62px;
+  width: 49px;
+  margin-left: -25px;
+  position: relative;
+  top: -8px;
 }
+  .busqueda{
+    height: 109px;
+    width: 99px;
+    margin-left: 51px;
+    position: relative;
+    top: 1px;
+  }
 
+  .hamburguesa{
+    height: 62px;
+    width: 49px;
+    margin-left: -25px;
+    position: relative;
+    top: 2px;
+  }
+  .div{
+    height: 5%;
+  }
+
+  .carru{
+    height: 100%;
+    width: 100%;
+  }
