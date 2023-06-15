@@ -1,42 +1,93 @@
-* {
-    padding: 0;
-    margin: 0;
+body {
+    margin: auto;
+    height: 100%;
+}
+
+*{
+  padding: 0px;
+  margin: 0px;
 }
 .menu { 
     display: flex; 
-    list-style: none; } 
+    list-style: none;
+ } 
 
-.menu a{ 
+.menues{ 
     color: #282727; 
     text-decoration: none; 
-    padding: 15px; 
-    font-family:'Frank Ruhl Libre';
-    font-size: 22px;
-    font-weight: bold; 
-    position: relative;
-    right: 100px;
+    font-family: 'Helvetica Neue';
+    font-size: 18px;
+    margin: auto;
 }
 
 .logo{
-    border: 5px;
-    width: 190px;
-    height: 170px;
+  width: 10%;
+  height: auto;
 }
 
-header {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+.cajaContenedora{
+    height: 100%;
+    position: relative;
+    width: 100%;
+    z-index: 0;
 }
-#logo{
-    width: 23%;
+
+.imagenes{
+    height: 500px;
+    width: 550px;
+}
+  
+  
+nav ul {
+  color: transparent;
+  list-style-type: none;
+  text-align: center;
+}
+ nav li{
+   display: inline-flex;
+ }
+
+nav a{
+  font-family: 'Playfair Display', serif;
+  text-decoration: none;
+  color: #282727;
+  padding: 0px;
+  width: -50px;
+  font-size: 30px;
+}
+
+
+body{
+    background-color: #ffff;
+  }
+
+.carro{
+  height: 62px;
+  width: 49px;
+  margin-left: -25px;
+  position: relative;
+  top: -8px;
+}
+  .busqueda{
+    height: 109px;
+    width: 99px;
+    margin-left: 51px;
+    position: relative;
+    top: 1px;
+  }
+
+  .hamburguesa{
+    height: 62px;
+    width: 49px;
+    margin-left: -25px;
+    position: relative;
+    top: 2px;
+  }
+  .div{
     height: 5%;
-    margin: auto;
-    display: block
-}
-.table {
-    width:  35%;
-    right: 35%;
-    margin: auto;
-    padding: auto;
-}
+  }
+
+  .carru{
+    height: 100%;
+    width: 100%;
+  }

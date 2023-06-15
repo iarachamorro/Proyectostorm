@@ -2,7 +2,7 @@ window.addEventListener("load", function(){
     console.log("el script se ha cargado correctamente");
     
     var imagenes = [];
-    imagenes[0] = "img/hombre_inicio.png";
+    imagenes[0] = "img/carrusel2.jpg";
     imagenes[1] = "img/carrusel1.jpg";
     var indiceImagenes = 0;
 

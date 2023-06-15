@@ -1,35 +1,35 @@
 body {
-    min-height: 100vh;
-    max-width: 400px;
     margin: auto;
-    font-size: 10%
+    height: 100%;
 }
 
-* {
-    padding: 0;
-    margin: 0;
+*{
+  padding: 0px;
+  margin: 0px;
 }
 .menu { 
     display: flex; 
-    list-style: none; } 
+    list-style: none;
+ } 
 
-.menu a{ 
-    color: #ffff; 
+.menues{ 
+    color: #282727; 
     text-decoration: none; 
-    padding: 15px; 
-    font-family: 'Playfair Display', serif;
-    font-size: 22px;
-    font-weight: bold; 
-    position: relative;
-    right: 100px;
+    font-family: 'Helvetica Neue';
+    font-size: 18px;
+    margin: auto;
+}
+
+.logo{
+  width: 10%;
+  height: auto;
 }
 
 .cajaContenedora{
-    text-align: center;
-    margin: auto;
-    right: 100px;
-    width: 800px;
-    height: 700px;
+    height: 100%;
+    position: relative;
+    width: 100%;
+    z-index: 0;
 }
 
 .imagenes{
@@ -39,7 +39,7 @@ body {
   
   
 nav ul {
-  background-color: #282727;
+  color: transparent;
   list-style-type: none;
   text-align: center;
 }
@@ -48,12 +48,12 @@ nav ul {
  }
 
 nav a{
-    font-family:'Castoro Titling', cursive;
+  font-family: 'Playfair Display', serif;
   text-decoration: none;
-  color: #ffffff;
-  padding: 10px;
-  width: 200px;
-    font-size: 30px;
+  color: #282727;
+  padding: 0px;
+  width: -50px;
+  font-size: 30px;
 }
 
 
@@ -61,10 +61,33 @@ body{
     background-color: #ffff;
   }
 
-.logo{
-    width: 60%;
-    height: auto;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+.carro{
+  height: 62px;
+  width: 49px;
+  margin-left: -25px;
+  position: relative;
+  top: -8px;
 }
+  .busqueda{
+    height: 109px;
+    width: 99px;
+    margin-left: 51px;
+    position: relative;
+    top: 1px;
+  }
+
+  .hamburguesa{
+    height: 62px;
+    width: 49px;
+    margin-left: -25px;
+    position: relative;
+    top: 2px;
+  }
+  .div{
+    height: 5%;
+  }
+
+  .carru{
+    height: 100%;
+    width: 100%;
+  }
