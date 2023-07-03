@@ -1,9 +1,9 @@
 window.addEventListener("load",function(){
     console.log("El script se cargó correctamente");
     var imagenes = [];
-    imagenes[0] = "./img/carrusel_hombre1.jpg";
-    imagenes[1] = "./img/carrusel4.jpg";
-    imagenes[2] = "./img/carrusel_hombre2.jpg";
+    imagenes[0] = "./img/carrusel3.jpg";
+    imagenes[1] = "./img/carrusel5.jpg";
+    imagenes[2] = "./img/carrusel6.jpg";
     var indiceImagenes = 0;
     var tiempo = 1000;
 
